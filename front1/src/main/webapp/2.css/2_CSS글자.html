@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+	<style type="text/css">
+	
+	@font-face {
+    font-family: 'CBNUJIKJI';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/CBNUJIKJI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+		/* css 주석처리 */
+		/* 선택자 { 속성명 } */
+		*{ /*  모든 태그에 적용*/
+		font-family:"궁서"; color:blue;
+		}
+		
+		h3{ /* h3태그에 적용*/
+			font-family: "CBNUJIKJI";
+			text-decoration: overline line-through underline;
+							/* 윗줄     취소선         밑줄*/
+			text-align: center; /* 폰트 정렬*/
+			text-shadow: 3px 3px 5px green;
+					/*    x   y   깊이  색상  */
+		}
+		p{
+		font-family: "GangwonEdu_OTFBoldA";
+		background-color: yellow;
+		line-height: 150%;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: bold;
+		
+		letter-spacing: 2px; /* 글자 간격 */
+		word-spacing: 5px; /* 단어 간격*/
+		}
+		
+		a{
+			text-decoration: none; /* 밑줄 제거 */
+			color: black;
+		}
+		
+		a:hover{ /* a 태그에 마우스 올렸을 때 */
+			color: orange;
+		}
+		a:visited{ /* 클릭한 기록이 있으면 */
+			color:blue;
+		}
+		a:active{ /* 클랙했을 때 */
+			color:green;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<!-- 
+		선택자{ 속성명 = 값 }
+			1. font-family : 글꼴
+			2. color : 글 색상
+			3. text-decoration : 밑줄 
+				line-through : 취소선
+				underline : 밑줄
+			4. text-align : 텍스트 정렬
+				center : 가운데
+				left : 왼쪽
+				right : 오른쪽	
+			5. text-shadow : 그림자	
+				x축 y축 깊이 색상 순으로 입력
+			 
+	
+	 -->
+
+
+	<h3> 비트코인 </h3>
+	<p> 2009년 비트코인의 소스 코드가 공개되었고, 이더리움, 이더리움 클래식, 리플, 라이트코인, 에이코인, 대시, 모네로, 제트캐시, 퀀텀 등 다양한 알트코인들이 생겨났다. </p><br> 
+	<p> 알트코인은 비트코인 이후에 등장한 암호화폐를 의미하며[3][4], 비트코인은 여러 알트코인들 사이에서 일종의 기축통화 역할을 하고 있다. </p>
+	<a href="www.naver.com"> 네이버 </a>
+	
+	
+</body>
+</html>
