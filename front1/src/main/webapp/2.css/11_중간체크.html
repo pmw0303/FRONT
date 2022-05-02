@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+	<style type="text/css">
+		
+		form{
+			width: 700px;
+			margin: 0 auto;
+		}
+		table {
+			width: 700px;
+			border-top: solid 3px black;
+		}
+		td{
+			border-bottom: solid 1px #eeeeee;
+		}
+		input {
+			width: 500px;
+			height: 30px;
+		}
+		textarea {
+			width: 500px;
+			height: 100px;
+		}
+		.col1{
+			width: 100px;
+		}
+		#btns{
+			text-align: right; /* 텍스트 or 버튼 or 이미지 위치 조정 */
+		}
+		#btns button {
+			padding: 5px 20px; /* 버튼을 꾸밀 때 padding 이용 / width, height 안씀 */
+			margin: 20px 10px;
+		}
+	</style>
+</head>
+<body>
+   <form> <!--  폼양식 [데이터 전송시] -->
+      <table><!--  테이블 태그 -->
+         <tr>
+            <!--  행 태그  -->
+            <td class="col1">이름</td>
+            <!--  테이블 데이터 태그 -->
+            <td >ㅋㅋㅋ</td>
+            <!--  테이블 데이터 태그 -->
+
+         </tr>
+         <!--  행end  -->
+         <tr>
+            <td class="col1">내용</td>
+            <td><textarea rows="" cols=""></textarea>
+               <!-- 긴글입력상자 -->
+         </tr>
+
+         <tr>
+         <td class="col1">첨부파일</td>
+         <td><input type="file"></td><!-- 첨부파일 -->
+         
+         
+         </tr>
+      </table><!-- 테이블 end -->
+      <div id="btns"><!-- 박스모델(구역) div display : block -->
+      <button>저장하기</button>
+      <button>목록보기</button>
+      </div>
+   
+   
+   </form><!--  폼end -->
+
+</body>
+</html>
